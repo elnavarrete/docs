@@ -1,0 +1,39 @@
+collections:
+  misauthors:
+    output: true
+    permalink: /:collection/:name
+
+permalink: /:collection/:categories/:title:output_ext
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  
+# Add layouts a todos los tipos de documentos
+
+defaults:
+  - scope:
+      path: ""
+      type: "misauthors"  # nombre de la coleción
+    values:
+      layout: "author"  # tipo de layout a aplicar
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values: 
+      layout: "default"
+
+
+exclude: [vendor]

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<p>
+    Escrito el <b>{{ page.date | date_to_string }}</b>
+    {% assign author = site.misauthors | where: 'short_name', page.author | first %}
+
+    {% if author %}
+        - por <b><a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a></b>
+    {% endif %}
+    
+</p>
+
+{{ content }}

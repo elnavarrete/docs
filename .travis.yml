@@ -1,0 +1,20 @@
+language: ruby
+rvm:
+  - 2.4.1
+
+before_script:
+ - chmod +x ./script/cibuild  
+
+script: ./script/cibuild
+
+sudo: false # route your build to the container-based infrastructure for a faster build
+
+cache: bundler # caching bundler gem packages will speed up build
+
+# Optional: disable email notifications about the outcome of your builds
+notifications:
+  email: false
+  slack: academicwork-talk:RzNLVNDw6YCFtjCRVotwckL5
+
+
+

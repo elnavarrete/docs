@@ -1,0 +1,8 @@
+- name: Inicio
+  link: /
+- name: Acerca
+  link: /acerca/  # es el permalink definido en la página
+- name: Blog
+  link: /blog/
+- name: Miembros
+  link: /miembros/

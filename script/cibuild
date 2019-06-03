@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e # halt script on error
+
+bundle exec jekyll build
+
+if test -e "./_site/index.html";then
+  echo "It builds!"
+fi
+
+rm -Rf _site
