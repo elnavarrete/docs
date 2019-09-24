@@ -1,7 +1,8 @@
 ---
 layout: author
 short_name: erik
-name: Erik Smith
-position: Chief Editor
+name: Erik Navarrete
+position: Developer 
 ---
-Jill is an avid fruit grower based in the south of France.
+
+Escribe aquí una descripción corta.

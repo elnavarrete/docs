@@ -7,7 +7,7 @@ Funciona a modo de plantilla, tiene la estructura necesaria y algunos ejemplso c
  gem install bundler jekyll
 ~~~
 
-+ Para descargar
++ Para descargar e instalar x primera vez
 ~~~console
  bundle install
 ~~~
