@@ -11,33 +11,36 @@ Los valores predefinidos que se debería utilizar al inicio de un css serán:
 ```css
 * {
   box-sizing: border-box;
+  padding : 0;
+  margin: 0;
 }
 ```
 
-+ Para centrar elementos:
-    + Horizontal
-        + Para elementos inline -> **text-align: center**
+## Para centrar elementos:
++ **Horizontal**
+  + Para elementos inline -> **text-align: center**
         + Para centrar bloque -> **margin: X auto;** (el elemento debe tener una anchura definida)
-    + Vertical
-        + Para elementos inline es preferible con FLEX
-	+ Para elementos en bloque ->
-	  ```
++ **Vertical**
+  + Para elementos inline es preferible con **FLEX**
+  + Para elementos en bloque
+	  ```css
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
 	  ```
 
-+ Propiedad **position**:
-    + **fixed**: para mantener un elemento en un posición fija
-    ```css
-        footer {
+## Propiedad **position**:
+
++ **fixed**: para mantener un elemento en un posición fija
+```css
+  footer {
 	 bottom: 0px;
-	 position: fixed;	// mantendrá el footer al final de la vista pantalla
+	 position: fixed;	/* mantendrá el footer al final de la vista pantalla*/
 	}
-    ```
-    + **sticky**: cuando llega a su posición se aplica sus propiedades
-    ```css
-	position: sticky;
-	top: 0px; // se aplica cuando llega al elemento
-	z-index: 10;
-    ```
+```
++ **sticky**: cuando llega a su posición se aplica sus propiedades
+```css
+position: sticky;
+top: 0px; /* se aplica cuando llega alelemento*/
+z-index: 10;
+```

@@ -1,6 +1,6 @@
 ---
 layout: author
-short_name: erik
+short_name: Erik
 name: Erik Navarrete
 position: Developer 
 ---
