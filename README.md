@@ -4,8 +4,8 @@ Funciona a modo de plantilla, tiene la estructura necesaria y algunos ejemplso c
 
 + Instala primero ruby y Jekyll
 ~~~shell
-sudo apt  install ruby
-gem install bundler jekyll
+sudo apt install ruby ruby-dev
+sudo gem install bundler jekyll
 ~~~
 
 + Para descargar e instalar x primera vez

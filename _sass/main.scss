@@ -1,14 +1,17 @@
-.current {
-    color: green;
-}
-
-body {
-    background: #eee
-}
+* {
+    line-height: 1.4;
+    margin: 20px auto;
+    max-width: 70vw;
+    padding: 0 10px;
+    color: #dbdbdb;
+    background: #202b38;
+} 
 
 .contenedor {
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
-    padding: 20px;
-    border: 1px solid lightcoral;
+}
+
+.current {
+    color: green;
 }
