@@ -1,13 +1,14 @@
-<nav>
-    
+<img src="https://blog.learningvps.es/wp-content/uploads/2019/05/logo_mecaround-768x497.png" alt="mecaround"
+    height="75">
+<button class="nav-botonMenu">
+    &#x2261;
+</button>
+<nav class="nav-principal">
     {% for item in site.data.navigation %}
-    
-    <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>
+
+    <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %} class="link-current" {% endif %}>
         {{ item.name }}
     </a>
 
     {% endfor %}
-    
 </nav>
-
-<hr>
